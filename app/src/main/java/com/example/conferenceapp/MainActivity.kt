@@ -8,6 +8,7 @@ import androidx.compose.material.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.conferenceapp.feature.GreetingScreen
+import com.example.conferenceapp.feature.HomeScreen
 import com.example.conferenceapp.ui.theme.ConferenceAppTheme
 
 class MainActivity : ComponentActivity() {
@@ -17,7 +18,7 @@ class MainActivity : ComponentActivity() {
             ConferenceAppTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(color = MaterialTheme.colors.background) {
-                    GreetingScreen(name = "TEST")
+                    HomeScreen()
                 }
             }
         }
